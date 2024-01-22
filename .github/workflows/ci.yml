@@ -23,7 +23,7 @@ jobs:
 matrix-test:
   strategy:
     matrix:
-      os:[ubuntu-latest, windows-latest]
+      os: [ubuntu-latest, windows-latest]
       python-version: ["3.9", "3.11"]
       include:
         - os: macos-latest
