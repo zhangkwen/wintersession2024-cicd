@@ -1,5 +1,4 @@
 name: Our CD
-
 on:
   release:
     types:
