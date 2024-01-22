@@ -44,6 +44,6 @@ matrix-test:
       - name: This step generates output
         id: step-with-output
         run: echo "some-variable=something" >> $GITHUB_OUTPUT
-      - run: echo "{{ steps.step-with-output.output.some-variable }}"
+      - run: echo "{{ steps.step-with-output.outputs.some-variable }}"
         
     
