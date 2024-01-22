@@ -1,7 +1,6 @@
 name: Our CD
 
 on:
-  push:
   release:
     types:
       - published
