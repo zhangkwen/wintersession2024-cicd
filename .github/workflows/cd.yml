@@ -1,6 +1,6 @@
 name: Our CD
 
-  on:
+on:
   release:
     types:
       - published
